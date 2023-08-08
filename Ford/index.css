@@ -1213,7 +1213,10 @@ main aside .customise .custom {
     flex-wrap: wrap;
     padding: 20px 0 40px !important;
   }
-
+  main .sections .latest_news .latest_news_wrap .title_row #country {
+    padding: 4px;
+    width: 170px;
+  }
   main .sections .latest_news .latest_news_wrap .title_row h2 {
     font-size: 1.5rem !important;
   }
@@ -1426,7 +1429,9 @@ main aside .customise .custom {
   main .sections .trending_articles .article_sec_heading {
     margin: 30px 0;
   }
-
+  main .sections .trending_articles .article_sec_heading .text_head {
+    font-size: 1.4rem;
+  }
   main .sections .trending_articles .trending_articles_in .article_container {
     display: flex;
     font-weight: 600;

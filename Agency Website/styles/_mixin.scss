@@ -1,0 +1,18 @@
+@mixin header_container {
+  max-width: 1215px;
+  padding: 1rem;
+  width: 100%;
+  margin-inline: auto;
+}
+@mixin body_container {
+  max-width: 1152px;
+  padding: 1rem;
+  width: 100%;
+  margin-inline: auto;
+}
+@mixin footer_container {
+  max-width: 1110px;
+  padding: 1rem;
+  width: 100%;
+  margin-inline: auto;
+}

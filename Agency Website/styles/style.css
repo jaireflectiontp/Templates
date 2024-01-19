@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit; }
+
+ul[role="list"],
+ol[role="list"] {
+  list-style: none; }
+
+html:focus-within {
+  scroll-behavior: smooth; }
+
+html,
+body {
+  height: 100%; }
+
+body {
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "Inter", sans-serif; }
+
+a:not([class]) {
+  text-decoration-skip-ink: auto; }
+
+a {
+  text-decoration: none; }
+
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block; }
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto; }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important; } }
+
+.bg-silver {
+  background-color: #f5f7fa; }
+
+.bg-neutral-black {
+  background-color: #263238; }
+
+header .header-container {
+  max-width: 1215px;
+  padding: 1rem;
+  width: 100%;
+  margin-inline: auto;
+  border: 1px solid red; }
+
+main section .body-container {
+  max-width: 1152px;
+  padding: 1rem;
+  width: 100%;
+  margin-inline: auto; }

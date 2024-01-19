@@ -1,0 +1,16 @@
+{
+  "name": "Agency Website",
+  "version": "1.0.0",
+  "description": "landing page of an agency website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-sass -o styles style.scss"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

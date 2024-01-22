@@ -1,22 +1,33 @@
 $bg-silver: #f5f7fa;
-$bg-white: #ffffff;
+$bg-neutral-black: #263238;
+$white: #ffffff;
 
 $primary: #4caf4f;
-
-$neutral-black: #263238;
+$text-grey: #18191f;
 $neutral-d_grey: #4d4d4d;
 $neutral-grey: #717171;
+$neutral-l_grey: #89939e;
 
-$fs-h800: "64px";
-$fs-h700: "36px";
-$fs-h600: "28px";
-$fs-h500: "20px";
+$fs-h800: 64px;
+$fs-h700: 36px;
+$fs-h600: 28px;
+$fs-h500: 20px;
 
-$fs-400: "18px";
-$fs-300: "16px";
-$fs-200: "14px";
-$fs-100: "12px";
+$fs-400: 16px;
+$fs-300: 14px;
 
 $fw-bold: 700;
 $fw-semibold: 600;
 $fw-regular: 500;
+$fw-thin: 400;
+
+$space-50: 8px;
+$space-100: 16px;
+$space-150: 24px;
+$space-200: 30px;
+$space-300: 32px;
+$space-400: 40px;
+$space-500: 42px;
+$space-600: 48px;
+$space-700: 64px;
+$space-800: 96px;

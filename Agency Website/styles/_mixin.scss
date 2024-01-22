@@ -1,3 +1,4 @@
+@import "./variables";
 @mixin header_container {
   max-width: 1215px;
   padding: 1rem;
@@ -15,4 +16,16 @@
   padding: 1rem;
   width: 100%;
   margin-inline: auto;
+}
+@mixin btn_primary {
+  padding: 14px 32px;
+  border-radius: 4px;
+  font-size: $fs-400;
+  font-weight: $fw-regular;
+}
+@mixin btn_secondary {
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: $fs-300;
+  font-weight: $fw-regular;
 }

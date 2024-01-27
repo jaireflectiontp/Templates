@@ -108,7 +108,10 @@ svg {
   width: 48px;
   height: 48px;
 }
-
+.footer-icons {
+  width: 32px;
+  height: 32px;
+}
 .font-small {
   font-size: $fs-300;
   font-weight: $fw-thin;
@@ -157,6 +160,9 @@ svg {
 }
 .margin-bottom-100 {
   margin-bottom: $space-100;
+}
+.margin-bottom-150 {
+  margin-bottom: $space-150;
 }
 .margin-bottom-200 {
   margin-bottom: $space-200;
@@ -368,6 +374,60 @@ main {
   .illustration-img {
     img {
       width: 60%;
+    }
+  }
+}
+
+footer {
+  .footer-container {
+    @include footer_container;
+    .footer-logo {
+      width: 155px;
+      background: $bg-silver;
+      padding: $fs-300;
+      border-bottom-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+    .social-icons {
+      display: flex;
+      gap: $space-100;
+    }
+    h4 {
+      color: $white;
+    }
+    .footer-nav-list {
+      li:not(:last-child) {
+        margin-bottom: 12px;
+      }
+    }
+    .footer-nav-list li a,
+    p {
+      color: $bg-silver;
+    }
+    .input-control {
+      display: flex;
+      align-items: center;
+      border-radius: $space-50;
+      background-color: #4d4d4d63;
+      padding: 10px 12px;
+      input {
+        width: 90%;
+        border: 0;
+        outline: 0;
+        padding-right: 12px;
+        background-color: transparent;
+        color: $bg-silver;
+      }
+      .send-btn {
+        width: 10%;
+        border: 0;
+        outline: 0;
+        background-color: transparent;
+        .sendIcon {
+          width: 18px;
+          height: 18px;
+        }
+      }
     }
   }
 }
